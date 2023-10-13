@@ -1,0 +1,103 @@
+
+.ingredients {
+    max-width: 100%;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.ingredients-text {
+    border: 2px solid #000;
+    float: right;
+    width: 50%;
+    padding-top: 40px;
+    height: 672px;
+}
+.ice-cream-image {
+    border: 2px solid #000;
+    float: left;
+    width: 75%;
+    margin-left: 140px; 
+    margin-top: 65px; 
+    display: flex;
+}
+.image-ice {
+    border: 2px solid #eb0707;
+    float: left;
+    width: 50%;
+    height: 672px
+
+}
+
+.icons {
+    color: var(--about-us-background-color-light);
+    border: 2px solid #000;
+    width: 4%;
+    height: 2%;
+    margin-bottom: 65px; 
+}
+.ingredients-title {
+    font-family: "Leckerli One";
+    font-size: 21px;
+    line-height: 20px;
+    padding-top: 40px;
+    text-align: left;
+}
+.ingredients-description-title{
+    font-family: "Dangrek", cursive;
+    font-size: 48px;
+    line-height: 100px;
+    text-align: left;
+}
+.ingredients-description{
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    line-height: 70px;
+    text-align: left;
+}
+.ing-text{
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 40px;
+}
+.description-text {
+    color: var(--blog-color-article-description);
+    font-family: "Source Sans 3";
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.icons {
+    position: relative;
+    bottom: 289px;
+    grid-column:auto;
+    gap: 10%;
+    height: 200px ;
+}
+
+@media (max-width: 768px) {
+    .ingredients-text {
+        float: none;
+        width: 100%;
+    }
+    
+    .ice-cream-image {
+        float: none;
+        width: 100%;
+    }
+    
+    .ice-cream-image img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    
+    .ingredients-description-title {
+        font-size: 36px; 
+    }
+    
+    .ingredients-description {
+        font-size: 18px; 
+        line-height: 50px;
+    }
+    
+}
